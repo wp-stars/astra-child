@@ -1,0 +1,33 @@
+.ls-social_share {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.ls-social_share .is-style-label-medium {
+	color: var(--color-grey_dark);
+}
+
+.ls-social_share .wp-block-button {
+	cursor: pointer;
+}
+
+.ls-social_share .wp-block-button:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.ls-social_share .wp-icons:before {
+	color: var(--color-black);
+	font-family: icons, sans-serif;
+	font-size: var(--font-size-l);
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-align: center;
+	line-height: 1.3;
+}
+
+.ls-social_share .wp-icons:hover:before {
+	background-color: var(--color-grey_lightest);
+	border-radius: 100%;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "metalprices",
+  "version": "1.0.0",
+  "description": "React app for metalprices",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Will Nahmens",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.6.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/x-date-pickers": "^6.8.0",
+    "date-fns": "^2.30.0",
+    "recharts": "^2.7.2"
+  }
+}

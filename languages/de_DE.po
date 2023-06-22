@@ -1,0 +1,788 @@
+# Copyright (C) 2022 LimeSoda
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Astra Child 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/astra-child\n"
+"POT-Creation-Date: 2022-08-29T06:06:37+00:00\n"
+"PO-Revision-Date: 2022-08-29 08:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: iwgplating\n"
+
+#. Theme Name of the theme
+msgid "Astra Child"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://wpastra.com/"
+msgstr ""
+
+#. Description of the theme
+msgid "Astra Child Theme"
+msgstr ""
+
+#. Author of the theme
+#: blocks/class-gutenberg-blocks.php:122
+msgid "LimeSoda"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.limesoda.com"
+msgstr ""
+
+#: custom-post-types/ls-jobs.php:60 custom-post-types/ls-jobs.php:62
+#: custom-post-types/ls-jobs.php:80 custom-post-types/ls-jobs.php:89
+#: shortcodes/jobs/index.php:118
+msgid "Jobs"
+msgstr "Jobs"
+
+#: custom-post-types/ls-jobs.php:61
+msgid "Job"
+msgstr "Job"
+
+#: custom-post-types/ls-jobs.php:63
+msgid "All Jobs"
+msgstr "Alle Jobs"
+
+#: custom-post-types/ls-jobs.php:64 custom-post-types/ls-metalprices.php:80
+#: custom-post-types/ls-products.php:64
+msgid "Add new"
+msgstr "Neu hinzufügen"
+
+#: custom-post-types/ls-jobs.php:65
+msgid "Add new Job"
+msgstr "Neuen Job hinzufügen"
+
+#: custom-post-types/ls-jobs.php:66
+msgid "Edit Job"
+msgstr "Job bearbeiten"
+
+#: custom-post-types/ls-jobs.php:67
+msgid "Add Job"
+msgstr "Job hinzufügen"
+
+#: custom-post-types/ls-jobs.php:68
+msgid "Show Job"
+msgstr "Job anzeigen"
+
+#: custom-post-types/ls-jobs.php:69
+msgid "Show Jobs"
+msgstr "Jobs zeigen"
+
+#: custom-post-types/ls-jobs.php:70
+msgid "Search Jobs"
+msgstr "Jobs durchsuchen"
+
+#: custom-post-types/ls-jobs.php:71
+msgid "No Jobs found"
+msgstr "Keine Jobs gefunden"
+
+#: custom-post-types/ls-jobs.php:72
+msgid "No Jobs found in trash"
+msgstr "Keine Jobs im Papierkorb"
+
+#: custom-post-types/ls-jobs.php:73
+msgid "Jobs archives"
+msgstr "Job Archiv"
+
+#: custom-post-types/ls-jobs.php:74
+msgid "Insert into Jobs"
+msgstr "In Jobs einfügen"
+
+#: custom-post-types/ls-jobs.php:75
+msgid "Upload to these Jobs"
+msgstr "Zu Jobs hochladen"
+
+#: custom-post-types/ls-jobs.php:76
+msgid "Filter Jobs list"
+msgstr "Jobs filtern"
+
+#: custom-post-types/ls-jobs.php:77
+msgid "Jobs list navigation"
+msgstr "Jobs Navigation"
+
+#: custom-post-types/ls-jobs.php:78
+msgid "Jobs list"
+msgstr "Jobs Liste"
+
+#: custom-post-types/ls-jobs.php:79
+msgid "Jobs attributes"
+msgstr "Jobs Attribute"
+
+#: custom-post-types/ls-jobs.php:81
+msgid "Jobs published"
+msgstr "Veröffentlichte Jobs"
+
+#: custom-post-types/ls-jobs.php:82
+msgid "Jobs published privately."
+msgstr "Privat veröffentlichte Jobs."
+
+#: custom-post-types/ls-jobs.php:83
+msgid "Jobs reverted to draft."
+msgstr "Zu Entwurf verschobene Jobs."
+
+#: custom-post-types/ls-jobs.php:84
+msgid "Jobs scheduled"
+msgstr "Geplante Jobs"
+
+#: custom-post-types/ls-jobs.php:85
+msgid "Jobs updated."
+msgstr "Aktualisierte Jobs."
+
+#: custom-post-types/ls-jobs.php:133 custom-post-types/ls-jobs.php:135
+msgid "Job Categories"
+msgstr "Jobkategorien"
+
+#: custom-post-types/ls-jobs.php:134
+msgid "Job Category"
+msgstr "Jobkategorie"
+
+#: custom-post-types/ls-jobs.php:162
+msgid "City, state, country"
+msgstr "Stadt, Bundesland, Land"
+
+#: custom-post-types/ls-jobs.php:182
+msgid "Employment Type"
+msgstr "Anstellungsart"
+
+#: custom-post-types/ls-jobs.php:202
+msgid "Job Description"
+msgstr "Job Beschreibung"
+
+#: custom-post-types/ls-jobs.php:212 custom-post-types/ls-products.php:302
+#: inc/job/job-detailpage.php:146 inc/news/news-acf.php:60
+#: inc/news/news-detailpage.php:160 inc/product/product-detailpage.php:138
+msgid "Downloads"
+msgstr "Downloads"
+
+#: custom-post-types/ls-jobs.php:219 custom-post-types/ls-products.php:309
+#: inc/news/news-acf.php:67
+msgid "File Upload"
+msgstr "Datei Upload"
+
+#: custom-post-types/ls-jobs.php:229
+msgid "E-Mail Adress (optional)"
+msgstr "E-Mail Adresse (optional)"
+
+#: custom-post-types/ls-metalprices.php:76
+#: custom-post-types/ls-metalprices.php:77
+#: custom-post-types/ls-metalprices.php:78
+#: custom-post-types/ls-metalprices.php:96
+#: custom-post-types/ls-metalprices.php:105
+msgid "Metal Prices"
+msgstr "Metallpreise"
+
+#: custom-post-types/ls-metalprices.php:79
+msgid "All Metal Prices"
+msgstr "Alle Metallpreise"
+
+#: custom-post-types/ls-metalprices.php:81
+msgid "Add new Metal Prices"
+msgstr "Neue Metallpreise"
+
+#: custom-post-types/ls-metalprices.php:82
+msgid "Edit Metal Price"
+msgstr "Metallpreise Editieren"
+
+#: custom-post-types/ls-metalprices.php:83
+msgid "Add Metal Prices"
+msgstr "Neue Metallpreise"
+
+#: custom-post-types/ls-metalprices.php:84
+msgid "Show Metal Price"
+msgstr "Metallpreise zeigen"
+
+#: custom-post-types/ls-metalprices.php:85
+msgid "Show Metal Prices"
+msgstr "Metallpreise zeigen"
+
+#: custom-post-types/ls-metalprices.php:86
+msgid "Search Metal Prices"
+msgstr "Metallpreise durchsuchen"
+
+#: custom-post-types/ls-metalprices.php:87
+msgid "No Metal Prices found"
+msgstr "Keine Metallpreise gefunden"
+
+#: custom-post-types/ls-metalprices.php:88
+msgid "No Metal Prices found in trash"
+msgstr "Keine Metallpreise im Papierkorb"
+
+#: custom-post-types/ls-metalprices.php:89
+msgid "Metal Price archives"
+msgstr "Metallpreise Archiv"
+
+#: custom-post-types/ls-metalprices.php:90
+msgid "Insert into Metal Prices"
+msgstr "Zu Metallpreisen einfügen"
+
+#: custom-post-types/ls-metalprices.php:91
+msgid "Upload to these Metal Prices"
+msgstr "Zu Metallpreise hochladen"
+
+#: custom-post-types/ls-metalprices.php:92
+msgid "Filter Metal Prices list"
+msgstr "Metallpreise filtern"
+
+#: custom-post-types/ls-metalprices.php:93
+msgid "Metal Prices list navigation"
+msgstr "Metallpreise Navigation"
+
+#: custom-post-types/ls-metalprices.php:94
+msgid "Metal Prices list"
+msgstr "Metallpreise Liste"
+
+#: custom-post-types/ls-metalprices.php:95
+msgid "Metal Prices attributes"
+msgstr "Metallpreise Attribute"
+
+#: custom-post-types/ls-metalprices.php:97
+msgid "Metal Prices published"
+msgstr "Metallpreise veröffentlicht"
+
+#: custom-post-types/ls-metalprices.php:98
+msgid "Metal Prices published privately."
+msgstr "Metallpreise privat veröffentlicht."
+
+#: custom-post-types/ls-metalprices.php:99
+msgid "Metal Prices reverted to draft."
+msgstr "Metallpreise verschoben zu Entwurf."
+
+#: custom-post-types/ls-metalprices.php:100
+msgid "Metal Prices scheduled"
+msgstr "Metallpreise eingeplant"
+
+#: custom-post-types/ls-metalprices.php:101
+msgid "Metal Prices updated."
+msgstr "Metallpreise aktualisiert."
+
+#: custom-post-types/ls-metalprices.php:146
+#: shortcodes/metalprices/index.php:111
+msgid "Gold"
+msgstr "Gold"
+
+#: custom-post-types/ls-metalprices.php:154
+#: shortcodes/metalprices/index.php:112
+msgid "Silver"
+msgstr "Silber"
+
+#: custom-post-types/ls-metalprices.php:162
+#: shortcodes/metalprices/index.php:113
+msgid "Platin"
+msgstr "Platin"
+
+#: custom-post-types/ls-metalprices.php:170
+#: shortcodes/metalprices/index.php:114
+msgid "Palladium"
+msgstr "Palladium"
+
+#: custom-post-types/ls-metalprices.php:178
+#: shortcodes/metalprices/index.php:115
+msgid "Rhodium"
+msgstr "Rhodium"
+
+#: custom-post-types/ls-metalprices.php:186
+#: shortcodes/metalprices/index.php:116
+msgid "Ruthenium"
+msgstr "Ruthenium"
+
+#: custom-post-types/ls-products.php:60 custom-post-types/ls-products.php:62
+#: custom-post-types/ls-products.php:80 custom-post-types/ls-products.php:89
+msgid "Products"
+msgstr "Produkte"
+
+#: custom-post-types/ls-products.php:61 shortcodes/samplewishlist/index.php:125
+msgid "Product"
+msgstr "Produkt"
+
+#: custom-post-types/ls-products.php:63
+msgid "All Products"
+msgstr "Alle Produkte"
+
+#: custom-post-types/ls-products.php:65
+msgid "Add new Product"
+msgstr "Neues Produkt hinzufügen"
+
+#: custom-post-types/ls-products.php:66
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+#: custom-post-types/ls-products.php:67
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+#: custom-post-types/ls-products.php:68
+msgid "Show Product"
+msgstr "Produkt anzeigen"
+
+#: custom-post-types/ls-products.php:69
+msgid "Show Products"
+msgstr "Produkte zeigen"
+
+#: custom-post-types/ls-products.php:70
+msgid "Search Products"
+msgstr "Produkte durchsuchen"
+
+#: custom-post-types/ls-products.php:71
+msgid "No Products found"
+msgstr "Keine Produkte gefunden"
+
+#: custom-post-types/ls-products.php:72
+msgid "No Products found in trash"
+msgstr "Keine Produkte im Papierkorb"
+
+#: custom-post-types/ls-products.php:73
+msgid "Products archives"
+msgstr "Produkt Archiv"
+
+#: custom-post-types/ls-products.php:74
+msgid "Insert into Products"
+msgstr "Zu Produkten einfügen"
+
+#: custom-post-types/ls-products.php:75
+msgid "Upload to these Products"
+msgstr "Zu Produkten hochladen"
+
+#: custom-post-types/ls-products.php:76
+msgid "Filter Products list"
+msgstr "Produkte filtern"
+
+#: custom-post-types/ls-products.php:77
+msgid "Products list navigation"
+msgstr "Produkte Navigation"
+
+#: custom-post-types/ls-products.php:78
+msgid "Products list"
+msgstr "Produkt Liste"
+
+#: custom-post-types/ls-products.php:79
+msgid "Products attributes"
+msgstr "Produkte Attribute"
+
+#: custom-post-types/ls-products.php:81
+msgid "Products published"
+msgstr "Veröffentlichte Produkte"
+
+#: custom-post-types/ls-products.php:82
+msgid "Products published privately."
+msgstr "Privat veröffentlicht Produkte."
+
+#: custom-post-types/ls-products.php:83
+msgid "Products reverted to draft."
+msgstr "Zu Entwurf verschobene Produkte."
+
+#: custom-post-types/ls-products.php:84
+msgid "Products scheduled"
+msgstr "Geplante Produkte"
+
+#: custom-post-types/ls-products.php:85
+msgid "Products updated."
+msgstr "Aktualisierte Produkte."
+
+#: custom-post-types/ls-products.php:133 custom-post-types/ls-products.php:135
+msgid "Product Categories"
+msgstr "Produktkategorien"
+
+#: custom-post-types/ls-products.php:134
+msgid "Product Category"
+msgstr "Produktkategorie"
+
+#: custom-post-types/ls-products.php:153 custom-post-types/ls-products.php:155
+msgid "Usages"
+msgstr "Anwendungen"
+
+#: custom-post-types/ls-products.php:154
+msgid "Usage"
+msgstr "Anwendung"
+
+#: custom-post-types/ls-products.php:173 custom-post-types/ls-products.php:175
+msgid "Metal & Accessories"
+msgstr "Metalle & Zubehör"
+
+#: custom-post-types/ls-products.php:174
+msgid "Metal & Accessory"
+msgstr "Metalle & Zubehör"
+
+#: custom-post-types/ls-products.php:193 custom-post-types/ls-products.php:195
+msgid "Colors"
+msgstr "Farben"
+
+#: custom-post-types/ls-products.php:194
+msgid "Color"
+msgstr "Farbe"
+
+#: custom-post-types/ls-products.php:213 custom-post-types/ls-products.php:215
+msgid "Applications"
+msgstr "Applikationen"
+
+#: custom-post-types/ls-products.php:214
+msgid "Application"
+msgstr "Applikation"
+
+#: custom-post-types/ls-products.php:242 inc/cover/cover-slider.php:447
+#: inc/news/news-acf.php:26 inc/product/product-detailpage.php:101
+#: shortcodes/newsslider/index.php:211 shortcodes/productslider/index.php:200
+msgid "NEW"
+msgstr "NEU"
+
+#: custom-post-types/ls-products.php:257
+msgid "Is product sample available?"
+msgstr "Ist eine Produkt Musterbestellung verfügbar?"
+
+#: custom-post-types/ls-products.php:272
+msgid "Product Description"
+msgstr "Produkt Beschreibung"
+
+#: custom-post-types/ls-products.php:282 inc/product/product-detailpage.php:129
+msgid "Properties & Benefits"
+msgstr "Eigenschaften & Vorteile"
+
+#: custom-post-types/ls-products.php:292 inc/product/product-detailpage.php:133
+msgid "Area of Application"
+msgstr "Einsatzbereich"
+
+#: custom-post-types/ls-products.php:319
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/cover/cover-slider.php:26
+msgid "Activate Cover Slider"
+msgstr "Cover Slider aktivieren"
+
+#: inc/cover/cover-slider.php:30
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/cover/cover-slider.php:57
+msgid "Content Type"
+msgstr "Inhalt auf Slide"
+
+#: inc/cover/cover-slider.php:60
+msgid "Choose between custom content or posts"
+msgstr "Wähle zwischen frei befüllbarem Inhalt oder ausgelesenem Beitragsinhalt"
+
+#: inc/cover/cover-slider.php:71
+msgid "Custom Content"
+msgstr "Frei befüllbar"
+
+#: inc/cover/cover-slider.php:72
+msgid "Posts"
+msgstr "Beitrag"
+
+#: inc/cover/cover-slider.php:81
+msgid "Slides Content"
+msgstr "Slide Inhalte"
+
+#: inc/cover/cover-slider.php:98
+msgid "Media Content"
+msgstr "Medien Inhalte"
+
+#: inc/cover/cover-slider.php:105
+msgid "Main Image"
+msgstr "Hauptbild"
+
+#: inc/cover/cover-slider.php:117 inc/cover/cover-slider.php:248
+msgid "Icon One"
+msgstr "Icon Eins"
+
+#: inc/cover/cover-slider.php:128 inc/cover/cover-slider.php:259
+msgid "Icon Two (optional)"
+msgstr "Icon Zwei (optional)"
+
+#: inc/cover/cover-slider.php:139 inc/cover/cover-slider.php:270
+msgid "Icon Three (optional)"
+msgstr "Icon Drei (optional)"
+
+#: inc/cover/cover-slider.php:152
+msgid "Headings and Color"
+msgstr "Überschriften und Farbe"
+
+#: inc/cover/cover-slider.php:159
+msgid "Top-Heading"
+msgstr "Top-Überschrift"
+
+#: inc/cover/cover-slider.php:166
+msgid "Main Heading"
+msgstr "Hauptüberschrift"
+
+#: inc/cover/cover-slider.php:186
+msgid "Text Content"
+msgstr "Textinhalt"
+
+#: inc/cover/cover-slider.php:202
+msgid "Select Posts for Slider"
+msgstr "Wähle die Beiträge für den Slider"
+
+#: inc/cover/cover-slider.php:241
+msgid "Icons"
+msgstr "Icons"
+
+#: inc/cover/cover-slider.php:467
+msgid "Read now"
+msgstr "Jetzt lesen"
+
+#: inc/job/job-detailpage.php:133
+msgid "Apply now"
+msgstr "Jetzt bewerben"
+
+#: inc/job/job-detailpage.php:137 inc/news/news-detailpage.php:151
+msgid "Share it"
+msgstr "Teilen"
+
+#: inc/product/product-detailpage.php:119
+msgid "/en/order-sample"
+msgstr "/musterbestellung"
+
+#: inc/product/product-detailpage.php:121
+msgid "Order Sample"
+msgstr "Muster bestellen"
+
+#: inc/product/product-detailpage.php:124
+msgid "Sample added to Wishlist"
+msgstr "Muster wurde zur Wunschliste hinzugefügt"
+
+#: inc/product/product-detailpage.php:158
+msgid "Our Newest Products"
+msgstr "Unsere Neuankömmlinge"
+
+#: shortcodes/jobs/index.php:179 shortcodes/newsarchive/index.php:238
+msgid "Read More"
+msgstr "Mehr erfahren"
+
+#: shortcodes/metalprices/index.php:119
+msgid "Daily value"
+msgstr "Tageswert"
+
+#: shortcodes/metalprices/index.php:120
+msgid "Weekly value"
+msgstr "Wochenwert"
+
+#: shortcodes/metalprices/index.php:121
+msgid "Monthly value"
+msgstr "Monatswert"
+
+#: shortcodes/metalprices/index.php:122
+msgid "Annual value"
+msgstr "Jahreswert"
+
+#: shortcodes/newsarchive/index.php:172
+msgid "Load more"
+msgstr "Mehr laden"
+
+#: shortcodes/newsarchive/index.php:186
+msgid "Filter by topic"
+msgstr "Nach Thema filtern"
+
+#: shortcodes/newsarchive/index.php:187
+msgid "All"
+msgstr "Alle"
+
+#: shortcodes/newsslider/index.php:123
+msgid "You might also be interested in"
+msgstr "Das könnte Sie auch interessieren"
+
+#: shortcodes/newsslider/index.php:238 blocks/uagb-faq/index.js:8
+msgid "Read more"
+msgstr "Mehr erfahren"
+
+#: shortcodes/productslider/index.php:197
+msgid "Go to product"
+msgstr "Zum Produkt"
+
+#: shortcodes/samplewishlist/index.php:118
+msgid "Your Sample Order"
+msgstr "Ihre Musterplättchen-Bestellung"
+
+#: shortcodes/samplewishlist/index.php:142
+msgid "Shipping Address"
+msgstr "Lieferadresse"
+
+#: shortcodes/samplewishlist/index.php:199
+msgid "Product:"
+msgstr "Produkt:"
+
+#: shortcodes/samplewishlist/index.php:200
+msgid "Remove Sample"
+msgstr "Produktmuster entfernen"
+
+#: shortcodes/samplewishlist/index.php:200
+msgid "/en/productfinder"
+msgstr "/productfinder"
+
+#: shortcodes/samplewishlist/index.php:200
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: blocks/core-image/index.js:104
+msgid "Image & Background Position"
+msgstr "Bild & Hintergrund Positionierung"
+
+#: blocks/core-image/index.js:120
+msgid "Background Colors"
+msgstr "Hintergrundfarben"
+
+#: blocks/core-image/index.js:124 blocks/ls-number-block/edit.js:20
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: blocks/ls-contactform-links/edit.js:17
+#: blocks/ls-contactform-links/edit.js:27
+msgid "Text"
+msgstr "Text"
+
+#: blocks/ls-heading/edit.js:15
+msgid "Top Headline"
+msgstr "Top-Überschrift"
+
+#: blocks/ls-heading/edit.js:22
+msgid "Headline"
+msgstr "Überschrift"
+
+#: blocks/ls-heading/edit.js:40
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: blocks/ls-heading/edit.js:43
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: blocks/ls-number-block/edit.js:15
+msgid "Color Settings"
+msgstr "Farb-Einstellungen"
+
+#: blocks/ls-number-block/edit.js:30
+msgid "Number"
+msgstr "Nummer"
+
+#: blocks/ls-slider/edit.js:11
+msgid "Show Arrows"
+msgstr "Pfeile anzeigen"
+
+#: blocks/ls-slider/edit.js:19
+msgid "Show Dots"
+msgstr "Punkte anzeigen"
+
+#: blocks/ls-slider/edit.js:27
+msgid "Logo Slider"
+msgstr "Logo Silber"
+
+#: blocks/ls-text-media/edit.js:20
+msgid "Show media on the left"
+msgstr "Medien links anzeigen"
+
+#: blocks/ls-text-media/edit.js:26
+msgid "Show media on the right"
+msgstr "Medien rechts anzeigen"
+
+#: shortcodes/newsarchive/index.js:40
+msgid "No entries available, please select another filter."
+msgstr "Keine Einträge vorhanden, bitte wählen sie einen anderen Filter."
+
+#: shortcodes/newsarchive/index.js:53 shortcodes/newsarchive/index.js:86
+msgid "Oops... Something went wrong. Please reload the page."
+msgstr "Ups… Etwas ist schief gelaufen. Bitte laden Sie die Seite neu."
+
+#: blocks/ls-card/block.json
+msgctxt "block title"
+msgid "LS Card Block"
+msgstr "LS Karten Block"
+
+#: blocks/ls-card/block.json
+msgctxt "block description"
+msgid "LS Card Block"
+msgstr "LS Karten Block"
+
+#: blocks/ls-contactform-links/block.json
+msgctxt "block title"
+msgid "LS Contact Form Links"
+msgstr "LS Kontaktformular Links"
+
+#: blocks/ls-contactform-links/block.json
+msgctxt "block description"
+msgid "LS Contact Form Links"
+msgstr "LS Kontaktformular Links"
+
+#: blocks/ls-heading/block.json
+msgctxt "block title"
+msgid "LIMESODA Heading"
+msgstr "LIMESODA Überschrift"
+
+#: blocks/ls-heading/block.json
+msgctxt "block description"
+msgid "Element with top headline, headline and an icon."
+msgstr "Element mit einer Top-Überschrift, Überschrift und einem Icon."
+
+#: blocks/ls-number-block/block.json
+msgctxt "block title"
+msgid "Number Block"
+msgstr "Nummer-Block"
+
+#: blocks/ls-number-block/block.json
+msgctxt "block description"
+msgid "Number Block"
+msgstr "Nummer Block"
+
+#: blocks/ls-slider/block.json
+msgctxt "block title"
+msgid "Slider Block"
+msgstr "Slider Block"
+
+#: blocks/ls-slider/block.json
+msgctxt "block description"
+msgid "Slider Block"
+msgstr "Slider Block"
+
+#: blocks/ls-text-media/block.json
+msgctxt "block title"
+msgid "LS Bild & Text"
+msgstr "LS Bild & Text"
+
+#: blocks/ls-text-media/block.json
+msgctxt "block description"
+msgid "Image and custom content in two columns."
+msgstr "Bild und benutzerdefinierter Inhalt in zwei Spalten."
+
+#~ msgid "Color:"
+#~ msgstr "Farbe:"
+
+#~ msgid "Remove Product"
+#~ msgstr "Produktmuster entfernen"
+
+#~ msgid "/musterbestellung"
+#~ msgstr "/order-sample"
+
+#~ msgid "Tageswert"
+#~ msgstr "Tageswert"
+
+#~ msgid "Wochenwert"
+#~ msgstr "Wochenwert"
+
+#~ msgid "Monatswert"
+#~ msgstr "Monatswert"
+
+#~ msgid "Jahreswert"
+#~ msgstr "Jahreswert"
+
+#~ msgctxt "block title"
+#~ msgid "LIMESODA Test Block"
+#~ msgstr "LS Test Block"
+
+#~ msgctxt "block description"
+#~ msgid "LIMESODA Test Block"
+#~ msgstr "LS Test Block"
+
+#~ msgid "Mehr erfahren"
+#~ msgstr "Mehr erfahren"
+
+#~ msgid "Heading with Top-Headline and Icon (optional)"
+#~ msgstr "Überschrift mit Top-Überschrift und Icon (optional)"
+
+#~ msgid "Metal Price"
+#~ msgstr "Metallpreis"

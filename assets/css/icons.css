@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/icons.woff2?b2fef050d7e94a55e42c5855ec358a22") format("woff2");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-analyse_blue:before {
+    content: "\1388";
+}
+.icon-analyse_data:before {
+    content: "\1389";
+}
+.icon-anlagenplanung:before {
+    content: "\138a";
+}
+.icon-arrow:before {
+    content: "\138b";
+}
+.icon-arrow_down:before {
+    content: "\13ba";
+}
+.icon-arrow_white:before {
+    content: "\138c";
+}
+.icon-back:before {
+    content: "\138d";
+}
+.icon-beratung:before {
+    content: "\138e";
+}
+.icon-check:before {
+    content: "\138f";
+}
+.icon-chemicals:before {
+    content: "\1390";
+}
+.icon-close:before {
+    content: "\1391";
+}
+.icon-collapse:before {
+    content: "\1392";
+}
+.icon-contact:before {
+    content: "\1393";
+}
+.icon-download:before {
+    content: "\1394";
+}
+.icon-elektrolyte:before {
+    content: "\1395";
+}
+.icon-erfolg:before {
+    content: "\1396";
+}
+.icon-error:before {
+    content: "\1397";
+}
+.icon-error_red:before {
+    content: "\1398";
+}
+.icon-expand:before {
+    content: "\1399";
+}
+.icon-family:before {
+    content: "\139a";
+}
+.icon-fb:before {
+    content: "\139b";
+}
+.icon-fehlersuche:before {
+    content: "\139c";
+}
+.icon-forward:before {
+    content: "\139d";
+}
+.icon-galvanik:before {
+    content: "\139e";
+}
+.icon-lab:before {
+    content: "\139f";
+}
+.icon-linkedin:before {
+    content: "\13a0";
+}
+.icon-local:before {
+    content: "\13a1";
+}
+.icon-location:before {
+    content: "\13a2";
+}
+.icon-lohngalvanik:before {
+    content: "\13b8";
+}
+.icon-menu:before {
+    content: "\13b9";
+}
+.icon-messgeraete:before {
+    content: "\13a3";
+}
+.icon-more:before {
+    content: "\13a4";
+}
+.icon-muster:before {
+    content: "\13a5";
+}
+.icon-overview:before {
+    content: "\13a6";
+}
+.icon-planung:before {
+    content: "\13a7";
+}
+.icon-product:before {
+    content: "\13a8";
+}
+.icon-prototyp:before {
+    content: "\13a9";
+}
+.icon-quality:before {
+    content: "\13aa";
+}
+.icon-redo:before {
+    content: "\13ab";
+}
+.icon-search:before {
+    content: "\13ac";
+}
+.icon-service:before {
+    content: "\13ad";
+}
+.icon-stoppuhr:before {
+    content: "\13ae";
+}
+.icon-sustainability:before {
+    content: "\13af";
+}
+.icon-testtube:before {
+    content: "\13b0";
+}
+.icon-twitter:before {
+    content: "\13b1";
+}
+.icon-upload:before {
+    content: "\13b2";
+}
+.icon-werkstuecke:before {
+    content: "\13b3";
+}
+.icon-werte:before {
+    content: "\13b4";
+}
+.icon-worldwide:before {
+    content: "\13b5";
+}
+.icon-xing:before {
+    content: "\13b6";
+}
+.icon-youtube:before {
+    content: "\13b7";
+}
+.icon-message:before {
+    content: "\13bb";
+}
+.icon-telephone:before {
+    content: "\13bc";
+}

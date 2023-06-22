@@ -1,0 +1,437 @@
+/* search field for productfinder */
+.entry-content .facetwp-facet-search_products .facetwp-input-wrap,
+.entry-content .facetwp-facet-search_products .facetwp-input-wrap input {
+	width: 100%;
+}
+
+.entry-content .facetwp-facet-search_products .facetwp-input-wrap {
+	align-items: center;
+	border-bottom: 1px solid var(--color-iwg_grey);
+	display: flex;
+}
+
+.entry-content .facetwp-facet-search_products .facetwp-input-wrap input {
+	border: none;
+}
+
+.entry-content .facetwp-facet-search_products .facetwp-icon {
+	height: auto;
+	position: relative;
+	opacity: 1;
+	font-style: normal;
+}
+
+.entry-content .facetwp-facet-search_products .facetwp-icon:before {
+	background: none;
+	content: "\13ac";
+	font-family: icons, sans-serif;
+	font-size: var(--font-size-md);
+	width: auto;
+}
+
+/* filter for productfinder */
+.is-style-productfinder-filter p {
+	font-size: var(--font-size-s);
+	margin-bottom: 10px;
+}
+
+.is-style-productfinder-filter .wp-block-column > div {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.entry-content .fs-wrap {
+	width: 100%;
+}
+
+.entry-content .fs-label-wrap {
+	align-items: center;
+	background-color: var(--color-grey_lightest);
+	border-color: var(--color-iwg_grey);
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.entry-content .fs-open .fs-label-wrap {
+	border-color: var(--color-grey_dark);
+}
+
+.entry-content .fs-label-wrap .fs-label {
+	color: var(--color-grey_medium);
+	padding: 0 10px 0 0;
+}
+
+@media (min-width: 1300px) {
+	.entry-content .fs-label-wrap .fs-label {
+		overflow: visible;
+	}
+}
+
+.entry-content .fs-label-wrap .fs-arrow {
+	border: none;
+	height: auto;
+	margin: initial;
+	position: relative;
+	width: auto;
+}
+
+.entry-content .fs-label-wrap .fs-arrow:before {
+	content: "\13ba";
+	font-family: icons, sans-serif;
+	font-size: var(--font-size-md);
+}
+
+.entry-content .fs-dropdown {
+	box-shadow: 0px 4px 20px rgba(137, 137, 137, 0.2);
+	border-color: var(--color-white);
+	border-radius: 4px;
+}
+
+.fs-wrap.multiple .fs-option.selected,
+.fs-wrap.multiple .fs-option:hover {
+	background-color: var(--color-grey_lightest);
+}
+
+/* fselect hierarchical */
+.fs-wrap.multiple .fs-option.d0 {
+	margin: 5px 0;
+}
+
+.fs-wrap.multiple .fs-option.d1 {
+	padding-left: 60px;
+}
+
+.fs-wrap.multiple .fs-option.d1 .fs-checkbox {
+	margin-left: 25px;
+}
+
+.entry-content .fs-wrap.multiple .fs-option .fs-checkbox i {
+	color: var(--color-grey_light);
+	height: 18px;
+	width: 18px;
+}
+
+.entry-content .fs-wrap.multiple .fs-option.selected .fs-checkbox i {
+	background-color: var(--color-grey_dark);
+}
+
+.entry-content .facetwp-type-fselect .fs-option.d1 .fs-option-label {
+	padding-left: 0;
+}
+
+/* background to fselect color */
+.facetwp-facet-color .fs-option.d1[data-value] .fs-option-label {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+}
+
+.facetwp-facet-color .fs-option.d1[data-value] .fs-option-label:before {
+	border-radius: 3px;
+	content: '';
+	height: 20px;
+	width: 65px;
+}
+
+/* Arega pure 380 */
+.facetwp-facet-color .fs-option[data-value="arega-pure-380"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="arega-pure-100"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="arega-pure-390"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-arega-pure-380"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-arega-pure-100"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-arega-pure-390"] .fs-option-label:before {
+	background: linear-gradient(90deg, #FAF8F4 0%, #FAF8F4 29%, rgba(250, 248, 244, 0.92) 35%, rgba(250, 248, 244, 0.72) 48%, rgba(250, 248, 244, 0.4) 66%, rgba(250, 248, 244, 0.68) 81%, rgba(250, 248, 244, 0.91) 94%, #FAF8F4 100%);
+}
+
+/* Rhodega pure K3 */
+.facetwp-facet-color .fs-option[data-value="rhodega-pure-c2"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="rhodega-pure-k3"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-pure-c2"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-pure-k3"] .fs-option-label:before {
+	background: linear-gradient(90deg, #E9E4DF 0%, #E9E4DF 29%, rgba(233, 228, 223, 0.91) 35%, rgba(233, 228, 223, 0.69) 49%, rgba(233, 228, 223, 0.4) 66%, rgba(233, 228, 223, 0.66) 79%, rgba(233, 228, 223, 0.91) 93%, #E9E4DF 100%);
+}
+
+/* Rhodega blend Pt */
+.facetwp-facet-color .fs-option[data-value="rhodega-blend-ru"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="rhodega-blend-pt"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="rhodega-pure-for-pen-100"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-blend-ru"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-blend-pt"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-pure-for-pen-100"] .fs-option-label:before {
+	background: linear-gradient(90deg, #E8E1D6 0%, #E8E1D6 29%, rgba(232, 225, 214, 0.91) 36%, rgba(232, 225, 214, 0.69) 49%, rgba(232, 225, 214, 0.4) 66%, rgba(232, 225, 214, 0.66) 79%, rgba(232, 225, 214, 0.91) 93%, #E8E1D6 100%);
+}
+
+/* Pallega pure HT */
+.facetwp-facet-color .fs-option[data-value="pallega-pure-ec"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="pallega-pure-ht"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="pallega-pure-ts"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-pure-ec"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-pure-ht"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-pure-ts"] .fs-option-label:before {
+	background: linear-gradient(90deg, #D8D3CA 0%, #D8D3CA 29%, rgba(216, 211, 202, 0.91) 36%, rgba(216, 211, 202, 0.67) 51%, rgba(216, 211, 202, 0.4) 66%, rgba(216, 211, 202, 0.64) 78%, rgba(216, 211, 202, 0.9) 93%, #D8D3CA 100%);
+}
+
+/* Platega pure K1 */
+.facetwp-facet-color .fs-option[data-value="platega-blend-rh"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="platega-pure-k1"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-platega-blend-rh"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-platega-pure-k1"] .fs-option-label:before {
+	background: linear-gradient(90deg, #DFD8CE 0%, #DFD8CE 29%, rgba(223, 216, 206, 0.91) 36%, rgba(223, 216, 206, 0.68) 50%, rgba(223, 216, 206, 0.4) 66%, rgba(223, 216, 206, 0.65) 79%, rgba(223, 216, 206, 0.9) 93%, #DFD8CE 100%);
+}
+
+/* Pallega blend Fe */
+.facetwp-facet-color .fs-option[data-value="pallega-blend-fe"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="pallega-blend-co"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="pallega-pure-fs"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="pallega-plend-ni"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-blend-fe"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-blend-co"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-pure-fs"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-pallega-plend-ni"] .fs-option-label:before {
+	background: linear-gradient(90deg, #DED8D0 0%, #DED8D0 29%, rgba(222, 216, 208, 0.91) 36%, rgba(222, 216, 208, 0.68) 50%, rgba(222, 216, 208, 0.4) 66%, rgba(222, 216, 208, 0.65) 79%, rgba(222, 216, 208, 0.9) 93%, #DED8D0 100%);
+}
+
+/* Ruthega pure HS2 */
+.facetwp-facet-color .fs-option[data-value="ruthega-pure-hs2"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="ruthega-pure-n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="ruthega-pure-for-pen"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-ruthega-pure-hs2"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-ruthega-pure-n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-ruthega-pure-for-pen"] .fs-option-label:before {
+	background: linear-gradient(90deg, #BFBAB3 0%, #BFBAB3 29%, rgba(191, 186, 179, 0.9) 37%, rgba(191, 186, 179, 0.63) 53%, rgba(191, 186, 179, 0.4) 66%, rgba(191, 186, 179, 0.59) 75%, rgba(191, 186, 179, 0.88) 92%, #BFBAB3 100%);
+}
+
+/* Rhodega pure black 100 */
+.facetwp-facet-color .fs-option[data-value="rhodega-pure-black-100"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-rhodega-pure-black-100"] .fs-option-label:before {
+	background: linear-gradient(90deg, #9B9792 0%, #9B9792 29%, rgba(155, 151, 146, 0.87) 38%, rgba(155, 151, 146, 0.54) 58%, rgba(155, 151, 146, 0.4) 66%, rgba(155, 151, 146, 0.49) 70%, rgba(155, 151, 146, 0.86) 90%, #9B9792 100%);
+}
+
+/* Ruthega pure HS2/0 black */
+.facetwp-facet-color .fs-option[data-value="ruthega-pure-hs2-0-black"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="ruthega-pure-black-for-pen"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="white-ruthega-pure-hs2-0-black"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="whiteruthega-pure-black-for-pen"] .fs-option-label:before {
+	background: linear-gradient(90deg, #858380 0%, #858380 29%, rgba(133, 131, 128, 0.85) 40%, rgba(133, 131, 128, 0.47) 62%, rgba(133, 131, 128, 0.41) 66%, rgba(133, 131, 128, 0.83) 89%, #858380 100%);
+}
+
+/* aurega pure 240KP 0N */
+.facetwp-facet-color .fs-option[data-value="0n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-0n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-for-pen-0n"] .fs-option-label:before {
+	background: linear-gradient(90deg, #F9F3E0 0%, #F9F3E0 29%, rgba(249, 243, 224, 0.92) 35%, rgba(249, 243, 224, 0.71) 48%, rgba(249, 243, 224, 0.4) 66%, rgba(249, 243, 224, 0.68) 80%, rgba(249, 243, 224, 0.91) 94%, #F9F3E0 100%);
+}
+
+/* aurega pure 240KP 1N */
+.facetwp-facet-color .fs-option[data-value="1n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-1n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-1n14b"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-112"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-218m"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-1114m"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-1115"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-1n14"] .fs-option-label:before {
+	background: linear-gradient(90deg, #EEE1C2 0%, #EEE1C2 29%, rgba(238, 225, 194, 0.92) 35%, rgba(238, 225, 194, 0.7) 49%, rgba(238, 225, 194, 0.4) 66%, rgba(238, 225, 194, 0.67) 80%, rgba(238, 225, 194, 0.91) 93%, #EEE1C2 100%);
+}
+
+/* aurega pure 240KP 2N */
+.facetwp-facet-color .fs-option[data-value="2n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-2n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-218m"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-de"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-blend-cu-118cx"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-218"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-2n18"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-blend-pd-9000"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-for-pen-2n"] .fs-option-label:before {
+	background: linear-gradient(90deg, #E5CE99 0%, #E5CE99 29%, rgba(229, 206, 153, 0.91) 36%, rgba(229, 206, 153, 0.69) 50%, rgba(229, 206, 153, 0.4) 66%, rgba(229, 206, 153, 0.66) 79%, rgba(229, 206, 153, 0.9) 93%, #E5CE99 100%);
+}
+
+/* aurega pure 240KP 3N */
+.facetwp-facet-color .fs-option[data-value="3n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-3n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-auroprint"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-210h"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-210gm"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-yellow-for-pen"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-for-pen-r"] .fs-option-label:before {
+	background: linear-gradient(90deg, #E9D49E 0%, #E9D49E 29%, rgba(233, 212, 158, 0.91) 35%, rgba(233, 212, 158, 0.69) 49%, rgba(233, 212, 158, 0.4) 66%, rgba(233, 212, 158, 0.66) 79%, rgba(233, 212, 158, 0.91) 93%, #E9D49E 100%);
+}
+
+/* aurega pure 240KP 4N */
+.facetwp-facet-color .fs-option[data-value="4n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-4n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-rose-1-for-pen"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-rose-3-for-pen"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-blend-pd-2001-tr"] .fs-option-label:before {
+	background: linear-gradient(90deg, #EBD2B7 0%, #EBD2B7 29%, rgba(235, 210, 183, 0.92) 35%, rgba(235, 210, 183, 0.7) 49%, rgba(235, 210, 183, 0.4) 66%, rgba(235, 210, 183, 0.67) 79%, rgba(235, 210, 183, 0.91) 93%, #EBD2B7 100%);
+}
+
+/* aurega pure 240KP 5N */
+.facetwp-facet-color .fs-option[data-value="5n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-5n"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-blend-cu-630"] .fs-option-label:before,
+.facetwp-facet-color .fs-option[data-value="aurega-blend-cu-640"] .fs-option-label:before {
+	background: linear-gradient(90deg, #EFD0BD 0%, #EFD0BD 29%, rgba(239, 208, 189, 0.92) 35%, rgba(239, 208, 189, 0.7) 49%, rgba(239, 208, 189, 0.4) 66%, rgba(239, 208, 189, 0.67) 80%, rgba(239, 208, 189, 0.91) 93%, #EFD0BD 100%);
+}
+
+/* aurega pure 240KP 6N */
+.facetwp-facet-color .fs-option[data-value="6n"] .fs-option-label:before
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-6n"] .fs-option-label:before {
+	background: linear-gradient(90deg, #F0C8A7 0%, #F0C8A7 29%, rgba(240, 200, 167, 0.92) 35%, rgba(240, 200, 167, 0.7) 49%, rgba(240, 200, 167, 0.4) 66%, rgba(240, 200, 167, 0.67) 80%, rgba(240, 200, 167, 0.91) 93%, #F0C8A7 100%);
+}
+
+/* aurega pure 240KP 9N */
+.facetwp-facet-color .fs-option[data-value="9n"] .fs-option-label:before
+.facetwp-facet-color .fs-option[data-value="aurega-pure-240kp-9n"] .fs-option-label:before {
+	background: linear-gradient(90deg, #DDBC6A 0%, #DDBC6A 29%, rgba(221, 188, 106, 0.91) 36%, rgba(221, 188, 106, 0.68) 50%, rgba(221, 188, 106, 0.4) 66%, rgba(221, 188, 106, 0.65) 78%, rgba(221, 188, 106, 0.9) 93%, #DDBC6A 100%);
+}
+
+/* remove title if subcategory is white color */
+.facetwp-facet-color .fs-option.d1[data-value^="white-"] .fs-option-label {
+	text-indent: -9999px;
+}
+
+.facetwp-facet-sort_products {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	position: relative;
+}
+
+.facetwp-facet-sort_products:after {
+	color: var(--color-black);
+	content: "\13ba";
+	font-family: icons,sans-serif;
+	font-size: var(--font-size-md);
+	height: 35px;
+	line-height: 1.8;
+	position: absolute;
+	right: 20px;
+}
+
+.facetwp-facet-sort_products select {
+	background-color: var(--color-white);
+	border-color: var(--color-iwg_grey);
+	border-radius: 4px;
+	padding: 15px;
+	width: 100%;
+	-webkit-appearance:none;
+}
+
+@media (min-width: 768px) {
+	.facetwp-facet-sort_products select {
+		max-width: 327px;
+	}
+}
+
+/* grid */
+.entry-content .fwpl-layout.pf-posts {
+	grid-gap: 30px 20px;
+}
+
+.pf-posts .fwpl-row .fwpl-col {
+	text-align: center;
+}
+
+.fwpl-item.pf-image {
+	align-items: center;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.fwpl-item.pf-image {
+		height: 416px;
+	}
+}
+
+.fwpl-item.pf-image a img {
+	transition: transform .25s ease-in-out;
+}
+
+.fwpl-item.pf-image a:hover img {
+	transform: scale(1.1);
+}
+
+.fwpl-item.pf-productcategories,
+.fwpl-item.pf-metal-accessories,
+.fwpl-item.pf-color {
+	align-items: center;
+	display: inline-flex;
+}
+
+.fwpl-item.pf-productcategories span,
+.fwpl-item.pf-metal-accessories span,
+.fwpl-item.pf-color span {
+	padding-left: 5px;
+}
+
+.fwpl-item.pf-productcategories span:before,
+.fwpl-item.pf-metal-accessories span:before,
+.fwpl-item.pf-color span:before {
+	content: '|';
+	padding-right: 5px;
+}
+
+.fwpl-item.pf-productcategories span:before {
+	content: '';
+}
+
+.fwpl-item.is-empty {
+	display: none;
+}
+
+.fwpl-item.pf-posttitle a {
+	font-weight: 800;
+	font-size: var(--font-size-l);
+	line-height: var(--font-size-xxl);
+}
+
+.fwpl-item.pf-productcategories span,
+.fwpl-item.pf-metal-accessories span,
+.fwpl-item.pf-color span {
+	font-weight: 400;
+	font-size: var(--font-size-xs);
+	line-height: var(--font-size-s);
+	text-transform: uppercase;
+}
+
+.fwpl-item.pf-color span:nth-child(2) {
+	display: none;
+}
+
+.facetwp-facet-pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+}
+
+.facetwp-facet-pagination .facetwp-load-more {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	background: none;
+	color: var(--color-black);
+	font-weight: 400;
+	font-size: var(--font-size);
+}
+
+.facetwp-facet-pagination .facetwp-load-more.facetwp-hidden {
+	display: none;
+}
+
+.facetwp-facet-pagination .facetwp-load-more:before {
+	content: "\13a4";
+	font-family: icons,sans-serif;
+	font-size: var(--font-size-xxl);
+}

@@ -1,0 +1,25 @@
+/* styles here will only be loaded in the editor interface */
+.wp-block-ls-number-block .components-base-control__field {
+	position: relative;
+	display: flex;
+	flex-flow: column;
+}
+
+.wp-block-ls-number-block .components-text-control__input {
+	color: inherit;
+	font-size: 60px;
+	font-weight: 600;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.wp-block-ls-number-block .wp-block-ls-number-block__colorbox {
+	position: absolute;
+	display: block;
+	top: 15px;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
+	z-index: 0;
+}

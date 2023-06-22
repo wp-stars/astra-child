@@ -1,0 +1,45 @@
+/* this file will be loaded on the frontend and in the editor interface */
+.wp-block-ls-heading {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	gap: 15px;
+	justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+	.wp-block-ls-heading {
+		align-items: baseline;
+	}
+}
+
+.wp-block-ls-heading__topheadline {
+	color: var(--color-grey_medium);
+	font-size: var(--font-size-s);
+	font-weight: 300;
+	line-height: var(--line-height-md);
+	text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+	.wp-block-ls-heading__topheadline {
+		font-size: var(--font-size-l);
+		line-height: var(--line-height-l);
+	}
+}
+
+.entry-content .wp-block-ls-heading__headline {
+	margin-bottom: 0;
+}
+
+.wp-block-ls-heading__img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+@media (min-width: 1024px) {
+	.wp-block-ls-heading__img {
+		max-width: 90px;
+		max-height: 90px;
+	}
+}

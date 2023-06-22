@@ -1,0 +1,6 @@
+.wp-block-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	--wp--style--unstable-gallery-gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+	gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );
+}

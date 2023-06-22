@@ -1,0 +1,95 @@
+{
+	"version": 1,
+	"settings": {
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"name": "Yellow (IWG)",
+					"slug": "iwg_yellow_CI",
+					"color": "#FFEF00"
+				},
+				{
+					"name": "Dark Yellow (IWG)",
+					"slug": "iwg_dark_yellow_CI",
+					"color": "#FECA14"
+				},
+				{
+					"name": "Light Yellow (IWG)",
+					"slug": "iwg_light_yellow",
+					"color": "#FFFAAB"
+				},
+				{
+					"name": "Grey (IWG)",
+					"slug": "iwg_grey_CI",
+					"color": "#DEDCDC"
+				},
+				{
+					"name": "White",
+					"slug": "white",
+					"color": "#ffffff"
+				},
+				{
+					"name": "Black",
+					"slug": "black",
+					"color": "#000000"
+				},
+				{
+					"name": "Red (IWG)",
+					"slug": "iwg_red",
+					"color": "#E76E5C"
+				},
+				{
+					"name": "Green (IWG)",
+					"slug": "iwg_green",
+					"color": "#7DC792"
+				},
+				{
+					"name": "Secondary Yellow (IWG)",
+					"slug": "iwg_secondary_yellow",
+					"color": "#F1E27B"
+				},
+				{
+					"name": "Blue (IWG)",
+					"slug": "iwg_blue",
+					"color": "#8CD6ED"
+				},
+				{
+					"name": "Darkest Grey",
+					"slug": "darkest_grey",
+					"color": "#222222"
+				},
+				{
+					"name": "Darker Grey",
+					"slug": "darker_grey",
+					"color": "#454545"
+				},
+				{
+					"name": "Dark Grey",
+					"slug": "dark_grey",
+					"color": "#676767"
+				},
+				{
+					"name": "Medium Grey",
+					"slug": "medium_grey",
+					"color": "#898989"
+				},
+				{
+					"name": "Grey",
+					"slug": "grey",
+					"color": "#ACACAC"
+				},
+				{
+					"name": "Light Grey",
+					"slug": "light_grey",
+					"color": "#CFCFCF"
+				},
+				{
+					"name": "Lightest Grey",
+					"slug": "lightest_grey",
+					"color": "#F9F9F9"
+				}
+			]
+		}
+	}
+}

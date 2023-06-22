@@ -1,0 +1,103 @@
+.wp-social-link-youtube a svg,
+.ast-header-social-wrap a.ast-youtube span svg {
+	display: none;
+}
+
+.ast-header-social-wrap a.ast-youtube span:after,
+.wp-social-link-youtube a:after {
+	content: "\13b7";
+	font-family: icons, sans-serif;
+	font-size: 20px;
+	height: auto;
+	width: 20px;
+	color: var(--color-black);
+}
+
+.ast-header-social-wrap a.ast-youtube span:after {
+	height: 20px;
+}
+
+.ast-header-social-wrap a:hover.ast-youtube span:after,
+.wp-social-link-youtube a:hover:after {
+	transform-origin: center center;
+	transform: scale(1.1);
+	transition: all 0.15s ease;
+}
+
+.ast-breadcrumbs-wrapper {
+	display: block;
+	width: 83%;
+	margin: 0 auto;
+}
+
+main .ast-breadcrumbs-wrapper {
+	display: none;
+}
+
+.ast-breadcrumbs-wrapper .ast-breadcrumbs .trail-items li:after {
+	font-size: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.ast-breadcrumbs-wrapper {
+		width: 93%;
+	}
+}
+
+.ast-hide-display-device-mobile .is-style-footer .wp-block-columns .wp-block-column:first-child {
+	margin-top: -70px;
+}
+
+@media (max-width: 921px) {
+	.ast-no-sidebar.ast-separate-container .entry-content .alignfull {
+		margin-left: calc(-50vw + 50%) !important;
+		margin-right: calc(-50vw + 50%) !important;
+	}
+}
+
+.entry-content p {
+	margin-block-start: 20px;
+}
+
+@media (min-width: 768px) {
+	#content main .entry-content [class*="__inner-container"] > *:not(.alignfull) {
+		max-width: unset;
+	}
+}
+
+@media (min-width: 1200px) {
+	#content main .entry-content .wp-block-group:not(.is-style-logo-slider):not(.is-style-card-grid) [class*="__inner-container"] {
+		padding-right: calc(2.4em + 20px);
+		padding-left: calc(2.4em + 20px);
+	}
+
+	#page #content main .entry-content .wp-block-group [class*="wp-block"] [class*="__inner-container"] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 1300px) {
+	#content main .entry-content .wp-block-group:not(.is-style-logo-slider):not(.is-style-card-grid).alignfull [class*="__inner-container"] {
+		padding-left: calc(6.67em + 20px);
+		padding-right: calc(6.67em + 20px);
+		width: 1300px;
+		margin: 0 auto;
+	}
+
+	#page #content main .entry-content .wp-block-group [class*="wp-block"] [class*="__inner-container"] {
+		padding-left: 0;
+		padding-right: 0;
+		width: unset;
+	}
+
+	#page #content main .entry-content .wp-block-ls-slider [class*="__inner-container"] {
+		width: unset;
+		margin: auto;
+		padding: 10px;
+	}
+}
+
+.entry-content .wp-block-column h3 {
+	margin-block-start: 0;
+}

@@ -1,0 +1,17 @@
+/*
+Theme Name: New WPS Astra Child
+Theme URI: https://wpastra.com/
+Description: Astra Child Theme
+Version: 1.0.0
+Author: LimeSoda
+Author URI: https://www.limesoda.com
+Template: astra
+Text Domain: iwgplating
+*/
+
+@import "assets/css/variables.css";
+@import "assets/css/icons.css";
+@import "assets/css/main.css";
+@import "assets/css/header.css";
+@import "assets/css/news.css";
+@import "assets/css/gallery.css";

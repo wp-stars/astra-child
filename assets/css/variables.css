@@ -1,0 +1,55 @@
+:root {
+
+	/* primary */
+	--color-iwg_yellow: #ffef00;
+	--color-iwg_dark_yellow: #feca14;
+	--color-iwg_light_yellow: #fffaab;
+	--color-iwg_grey: #dedcdc;
+
+	/* secondary */
+	--color-iwg_category_red: #e76e5c;
+	--color-iwg_category_green: #7dc792;
+	--color-iwg_category_yellow: #f1e27b;
+	--color-iwg_category_blue: #8cd6ed;
+
+	/* greys */
+	--color-white: #fff;
+	--color-grey_lightest: #f9f9f9;
+	--color-grey_light: #cfcfcf;
+	--color-grey: #acacac;
+	--color-grey_medium: #898989;
+	--color-grey_dark: #676767;
+	--color-grey_darker: #454545;
+	--color-grey_darkest: #222;
+	--color-black: #000;
+
+	/* applications */
+	--color-primary: var(--color-iwg_yellow);
+	--color-secondary: var(--color-iwg_dark_yellow);
+	--color-font: var(--color-black);
+	--color-font-secondary: var(--color-grey_medium);
+	--color-background: var(--color-white);
+	--color-background-secondary: var(--color-grey_lightest);
+
+	/* font sizes */
+	--font-size-xs: 11px;
+	--font-size-s: 14px;
+	--font-size: 16px;
+	--font-size-md: 18px;
+	--font-size-l: 24px;
+	--font-size-xl: 32px;
+	--font-size-xxl: 48px;
+	--font-size-huge: 60px;
+
+	/* line height values */
+	--line-height-xs: 1.023;
+	--line-height-s: 1.154;
+	--line-height-md: 1.186;
+	--line-height-l: 1.28;
+	--line-height-xl: 1.364;
+	--line-height-xxl: 1.647;
+
+	/* content */
+	--container-width: 1145px;
+	--content-width: 750px;
+}
